@@ -7,38 +7,39 @@ button{
 
 
 }
-
 button:hover{
     background: #f54141;
-
-*
-{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-}
-
-  
-  
-
-
-
-
-  
-  
-  
-  
-body{
-
-    background-color: rgb(241, 243, 239);
-
-
-
-  
+    
 
 
 }
 
+  
+  
 
 
+
+
+  
+  
+  
+
+
+
+
+.toolbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+   
+}
+ 
+
+#editor{
+    max-width: 800px;
+    height:200px;
+    border:1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
